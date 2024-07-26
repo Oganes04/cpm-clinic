@@ -1,0 +1,61 @@
+@import url(default.css);
+
+#content1 .content {
+	padding-bottom: 40px;
+	width: 100%;
+	float: left;
+}
+#content1 .cont-text .contentImage {
+	margin: 0;
+}
+#div_img {
+	display: none;
+}
+#div_main {
+	padding-top: 50px;
+}
+
+#content1 .cont-text .div_txt {
+}
+#content1 .cont-text .contentTitle {
+	font-size: 28px;
+	font-weight: 300;
+	border-style: none;
+}
+#content1 .cont-text .contentTitle:before {
+	display: none;
+}
+.word {
+	background-image: url(microsoft_word.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+	padding-top: 25px;
+	padding-left: 90px;
+	display: inline-block;
+	height: 75px;
+}
+
+@media (max-width: 767px) {  
+ #pageTitle {
+	font-size: 32px;
+	line-height: 1.2;
+ }
+}/*@media*/
+
+@media (max-width: 639px) {  
+ #content1 .cont-text .content-image {
+	margin-bottom: 30px;
+	max-width: 100%;
+ }  
+ #content1 .cont-text .div_txt {
+	padding-left: 0px;
+	width: 100%;
+ }
+}/*@media*/
+
+@media (max-width: 991px) {   
+ #pageTitle {
+	line-height: 1.2;
+	margin-bottom: 0.5em;
+ }
+}/*@media*/

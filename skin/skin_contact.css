@@ -1,0 +1,25 @@
+#content .content {
+	width: 50%;
+	float: left;
+}
+#content .cont-text {
+	padding-right: 60px;
+}
+#content .modal_block {
+	max-width: 100%;
+	padding: 0;
+}
+#content .modal_block .contentTitle {
+	text-align: left;
+}
+
+@media (max-width: 991px) {
+ #content .content {
+	width: 100%;
+ } 
+ #content .cont-text {
+	padding-right: 0px;
+ }
+}/*@media*/
+
+

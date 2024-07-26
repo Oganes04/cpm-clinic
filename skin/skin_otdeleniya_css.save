@@ -1,0 +1,79 @@
+#content #menuLink .obj-wrap {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 30px;
+	margin-left: -2px;
+	margin-right: -2px;
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+}
+#content #menuLink .object {
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: 1px solid #e0e0e0;
+	display: block;
+	padding: 20px 10px;
+	text-align: center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-transition: all 0.3s ease;
+	                -o-transition: all 0.3s ease;
+	                -webkit-transition: all 0.3s ease;
+	                transition: all 0.3s ease;
+}
+#content #menuLink .object .objectImage {
+	margin-bottom: 10px;
+	display: inline-block;
+	height: 75px;
+}
+#content #menuLink .object .link {
+	color: #212121;
+	font-size: 20px;
+	display: block;
+}
+#content #menuLink .object:hover {
+	background-color: #2F57D1;
+	border: 1px solid #2F57D1;
+	position: relative;
+	-moz-box-shadow: 0px 0px 20px #999;
+	-webkit-box-shadow: 0px 0px 20px #999;
+	box-shadow: 0px 0px 20px #999;
+}
+
+#content #menuLink .object:hover .link {
+	color: #FFFFFF;
+}
+#div586 {
+	display: none;
+}
+
+@media (max-width: 1199px) {   
+ #content #menuLink .obj-wrap {
+	width: 33.333%;
+ }      
+}/*@media*/
+
+
+@media (max-width: 767px) {
+  
+ #content #menuLink .object .link {
+	font-size: 18px;
+ } 
+}/*@media*/
+
+@media (max-width: 639px) {  
+ #content #menuLink .obj-wrap {
+	width: 50%;
+ } 
+}/*@media*/
+
+@media (max-width: 479px) {
+ #content #menuLink .object .link {
+	font-size: 16px;
+	min-height: 3em;
+ }   
+}/*@media*/
+
+

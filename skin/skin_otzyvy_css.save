@@ -1,0 +1,14 @@
+.cont_guest #comments .comm {
+	margin-right: 3%;
+	width: 47%;
+	float: left;
+}
+
+.cont_guest #comments .pageselector {
+	clear: both;
+}
+.cont_guest #guesttab {
+	margin-top: 70px;
+	width: 100%;
+	float: left;
+}
